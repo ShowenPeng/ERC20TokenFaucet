@@ -15,14 +15,14 @@
 🏠 Hosted on: <a href="https://www.erc20tokenfaucet.com/">https://www.erc20tokenfaucet.com/</a><br/>
 
 > <br/>A useful <b>ERC20 token faucet</b> for testing ERC20 smart contract functions!<br/>
-> Actually, you can mint Kerry Token only in Goerli Testnet.<br/><br/>
-> How do you mint a Kerry Token?<br/>
+> Actually, you can mint TSUSD Token only in Goerli Testnet.<br/><br/>
+> How do you mint a TSUSD Token?<br/>
 > Easy, go to ERC20 Token Faucet Homepage at this <a href="https://github.com/Kerry12079/ERC20TokenFaucet" style="color:blue; text-decoration:underline; text-shadow: 1px 1px white;">link</a>. 
-> Then connect your Metamask wallet and click on button 'MINT TOKEN', confirm the transaction, wait the confirmation about network and enjoy with a one unit of Kerry Token!    
+> Then connect your Metamask wallet and click on button 'MINT TOKEN', confirm the transaction, wait the confirmation about network and enjoy with a one unit of TSUSD Token!    
 > <br/>
-> How can you see your Kerry Token balance?  
+> How can you see your TSUSD Token balance?  
 > Simple, go to ERC20 Token Faucet Homepage at this <a href="https://github.com/Kerry12079/ERC20TokenFaucet" style="color:blue; text-decoration:underline; text-shadow: 1px 1px white;">link</a>. 
-> Then connect your Metamask wallet and click on button 'SEE MY BALANCE' and you can see your Kerry Token Balance with other important information!<br/><br/>
+> Then connect your Metamask wallet and click on button 'SEE MY BALANCE' and you can see your TSUSD Token Balance with other important information!<br/><br/>
 
 ## Demo
 <img src="https://github.com/Kerry1207/ERC20TokenFaucet/blob/main/ERC20TokenFaucet.gif" alt="gif demo ERC20TokenFaucet application"><br/>
@@ -38,14 +38,14 @@
     <th style="border: 1px solid white; padding: 8px;">Active</th>
   <tr>
   <tr style="text-align:center; vertical-align:middle; padding: 8px;">
-    <td style="border: 1px solid white;">KTK</td>
+    <td style="border: 1px solid white;">TSUSD</td>
     <td style="border: 1px solid white;">18</td>
     <td style="border: 1px solid white;">Goerli</td>
-    <td style="border: 1px solid white;"><a href="https://goerli.etherscan.io/address/0xcf185f2F3Fe19D82bFdcee59E3330FD7ba5f27ce" style="color:blue; text-decoration:underline; text-shadow: 1px 1px white;">0xcf185f2F3Fe19D82bFdcee59E3330FD7ba5f27ce</a></td>
+    <td style="border: 1px solid white;"><a href="https://goerli.etherscan.io/address/0x10cEe1c84Df52ceb04d48E6F321d9A7a40Ac3a63" style="color:blue; text-decoration:underline; text-shadow: 1px 1px white;">0x10cEe1c84Df52ceb04d48E6F321d9A7a40Ac3a63</a></td>
     <td style="border: 1px solid white;">🟢</td>
   <tr>
   <tr style="text-align:center; vertical-align:middle; padding: 8px;">
-    <td style="border: 1px solid white;">KTK</td>
+    <td style="border: 1px solid white;">TSUSD</td>
     <td style="border: 1px solid white;">18</td>
     <td style="border: 1px solid white;">Sepolia</td>
     <td style="border: 1px solid white;">Upcoming...</td>
@@ -90,14 +90,14 @@ ERC20TokenFaucet uses the following depedencies:
   <li>Browserify;</li>
   <li>Tailwind.</li>
 </ul>
-In the project, Ethers is used for interacting with Web3 provider and handling the operations related to Kerry Token smart contract like:
+In the project, Ethers is used for interacting with Web3 provider and handling the operations related to TSUSD Token smart contract like:
 <ul>
   <li>retrieve ERC20 token name;</li>
   <li>retrieve balanceOf about signer;</li>
-  <li>transfer a unit of Kerry Token to the sender of transaction.</li>
+  <li>transfer a unit of TSUSD Token to the sender of transaction.</li>
 </ul>
 
-ERC20TokenProject uses different classes for handling the request given in, input from the user (such as: checking the user balance related to Kerry Token). For this scope, the other package used in the project is Browserify. This library, allows use Node. js-style modules that compile for use in the browser. 
+ERC20TokenProject uses different classes for handling the request given in, input from the user (such as: checking the user balance related to TSUSD Token). For this scope, the other package used in the project is Browserify. This library, allows use Node. js-style modules that compile for use in the browser. 
 This tool generates a file, which contract all the project modules, called ```bundle.js``` present in the folder called ```dist```. <br/><br/>
 
 to contract all the files (in this case Javascript) into a single file called 
@@ -127,7 +127,7 @@ In this project, the test is divided into:
 
 The first type allows to test the front-end of application. In detail, using cypress are tested all the behaviors that application should execute in specific conditions.<br/>
 You can view the tests inside the following path: ```{rootProjectFolder}/tests/integration```.
-For the second type the test-development environment called Hardhat. With this tool, it tested the smart contract for minting a unit of Kerry Token.<br/>
+For the second type the test-development environment called Hardhat. With this tool, it tested the smart contract for minting a unit of TSUSD Token.<br/>
 You can view the tests inside the following path: ```{rootProjectFolder}/tests/smartcontract```.
 
 For running the test that I described above in your terminal, you can digit one of following commands:

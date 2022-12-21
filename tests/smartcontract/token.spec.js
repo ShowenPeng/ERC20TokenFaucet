@@ -1,9 +1,9 @@
 const { expect } = require('chai');
 
 var INITIAL_SUPPLY = "1000000000000000000";
-var EXPECTED_TOKEN_NAME = "KerryToken";
+var EXPECTED_TOKEN_NAME = "TestUSD";
 var EXPECTED_TOKEN_DECIMALS = 18;
-var EXPECTED_TOKEN_SYMBOL = "KTK";
+var EXPECTED_TOKEN_SYMBOL = "TSUSD";
 var EXPECTED_NEW_TOKEN_SUPPLY = "2000000000000000000";
 
 describe("testing out functionalities Token smart contract", function() {

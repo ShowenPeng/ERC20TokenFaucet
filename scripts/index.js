@@ -46,7 +46,7 @@ window.transferToken = async function() {
         var transferAlertArgs = {
             title: constants.TITLE_SUCCESS,
             icon: constants.ICON_SUCCESS,
-            html: '<p>Awesome, you have minted 1 unit of Kerry Token! <br><br> You can see your transaction progress here: <br> <a href="' + constants.GOERLI_ETHERSCAN + transaction.hash + '" target="_blank" style="text-decoration:underline;color:blue;">' + transaction.hash + '</a></p>',
+            html: '<p>Awesome, you have minted 1 unit of TSUSD Token! <br><br> You can see your transaction progress here: <br> <a href="' + constants.GOERLI_ETHERSCAN + transaction.hash + '" target="_blank" style="text-decoration:underline;color:blue;">' + transaction.hash + '</a></p>',
             showConfirmButton: true
         }
         fillshowAlert(transferAlertArgs);
